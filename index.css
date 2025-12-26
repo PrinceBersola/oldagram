@@ -1,5 +1,30 @@
 html, body {
     margin: 0;
     padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
+main,
+section {
+    width: 375px;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 67px;
+    border-bottom: 1px solid #dbdbdb;
+    padding: 0 15px;
+}
+
+.oldagram-logo {
+    width: 127px;
+}
+
+.user-avatar {
+    width: 34px;
+    border-radius: 50%;
+}
