@@ -28,3 +28,18 @@ nav {
     width: 34px;
     border-radius: 50%;
 }
+
+.heart {
+    width: 23px;
+    margin: 3px;
+}
+
+.comment {
+    width: 23px;
+    margin: 3px;
+}
+
+.dm {
+    width: 23px;
+    margin: 3px;
+}
