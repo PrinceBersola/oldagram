@@ -1,3 +1,10 @@
+.source-sans-3-regular {
+    font-family: "Source Sans 3", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400, 800;
+    font-style: normal;
+}
+
 html, body {
     margin: 0;
     padding: 0;
@@ -24,22 +31,65 @@ nav {
     width: 127px;
 }
 
-.user-avatar {
+.avatar {
     width: 34px;
+    height: 34px;
     border-radius: 50%;
+    margin-right: 10px;
 }
 
-.heart {
-    width: 23px;
-    margin: 3px;
+.post-header {
+    display: flex;
+    align-items: center;
+    line-height: 6px;
+    height: 55px;
+    margin-left: 10px;
 }
 
-.comment {
-    width: 23px;
-    margin: 3px;
+.post-image {
+    width: 100%;
 }
 
-.dm {
+.post-name {
+    font-weight: bold;
+}
+
+.post-icons {
+    margin: 0;
+    padding: 20px 5px 0 5px;
+}
+
+.post-icon {
     width: 23px;
-    margin: 3px;
+    margin: 0 5px;
+    padding: 0;
+}
+
+.post-likes {
+    font-weight: bold;
+    margin: 0;
+    padding: 0 10px;
+}
+
+.post-comment-section {
+    margin: 0;
+    padding: 0 10px;
+}
+
+.post-username {
+    font-weight: bold;
+}
+
+.post-section {
+    background-color: white;
+}
+
+#post-feed {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 25px;
+    background-color: #EDEDED;
+    font-size: 12px;
+    font-family: "Source Sans 3", sans-serif;
 }
